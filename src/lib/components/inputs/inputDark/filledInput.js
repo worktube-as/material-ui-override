@@ -1,21 +1,24 @@
-import worktubeUIConfig from 'app/styles/worktube-theme'
+import {
+  colorDark,
+  border
+} from 'worktube-theme/core'
 
 const MuiFilledInput = {
   root: {
-    backgroundColor: worktubeUIConfig.theme.dark.lighten3,
+    backgroundColor: colorDarkark.lighten3,
     '&:hover': {
-      backgroundColor: worktubeUIConfig.theme.dark.lighten2,
+      backgroundColor: colorDarkark.lighten2,
       '@media (hover: none)': {
-        backgroundColor: worktubeUIConfig.theme.dark.lighten2
+        backgroundColor: colorDarkark.lighten2
       }
     },
     '&$focused': {
-      backgroundColor: worktubeUIConfig.theme.dark.lighten2
+      backgroundColor: colorDarkark.lighten2
     }
   },
   underline: {
     '&:after': {
-      borderBottom: worktubeUIConfig.border['2px'].solid.secondary.default
+      borderBottom: border['2px'].solid.secondary.default
     }
   }
 }

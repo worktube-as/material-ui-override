@@ -1,28 +1,35 @@
-import worktubeUIConfig from 'app/styles/worktube-theme'
+import {
+  colorBlack,
+  colorWhite,
+  colorPrimary,
+  colorSecondary,
+  colorError,
+  colorDark
+} from 'worktube-theme/core'
 
 const palette = {
   tonalOffset: 0.2,
   common: {
-    black: worktubeUIConfig.theme.colors.black,
-    white: worktubeUIConfig.theme.colors.white
+    black: colorBlack.default,
+    white: colorWhite.default
   },
   primary: {
-    main: worktubeUIConfig.theme.primary.default,
+    main: colorPrimary.default,
     // light: '',
-    dark: worktubeUIConfig.theme.primary.darken1,
-    contrastText: worktubeUIConfig.theme.colors.white
+    dark: colorPrimary.darken1,
+    contrastText: colorWhite.default
   },
   secondary: {
-    main: worktubeUIConfig.theme.secondary.default,
+    main: colorSecondary.default,
     // light: '',
-    dark: worktubeUIConfig.theme.secondary.darken1,
-    contrastText: worktubeUIConfig.theme.colors.white
+    dark: colorSecondary.darken1,
+    contrastText: colorWhite.default
   },
   error: {
-    main: worktubeUIConfig.theme.error.default,
+    main: colorError.default,
     // light: '',
-    dark: worktubeUIConfig.theme.error.darken1,
-    contrastText: worktubeUIConfig.theme.colors.white
+    dark: colorError.darken1,
+    contrastText: colorWhite
   },
   // grey: {
   //   50: '#fafafa',
@@ -41,26 +48,26 @@ const palette = {
   //   A700: '#616161'
   // },
   action: {
-    active: worktubeUIConfig.theme.dark.lighten1,
-    hover: worktubeUIConfig.theme.dark.lighten5,
+    active: colorDark.lighten1,
+    hover: colorDark.lighten5,
     hoverOpacity: 0.12,
-    selected: worktubeUIConfig.theme.black.lighten4,
-    disabled: worktubeUIConfig.theme.black.lighten3,
-    disabledBackground: worktubeUIConfig.theme.dark.lighten5
+    selected: colorBlack.lighten4,
+    disabled: colorBlack.lighten3,
+    disabledBackground: colorDark.lighten5
   },
   background: {
-    paper: worktubeUIConfig.theme.colors.white,
-    default: worktubeUIConfig.theme.colors.white,
-    level2: worktubeUIConfig.theme.dark.lighten6,
-    level1: worktubeUIConfig.theme.colors.white
+    paper: colorWhite,
+    default: colorWhite,
+    level2: colorDark.lighten6,
+    level1: colorWhite.default
   },
   text: {
-    primary: worktubeUIConfig.theme.dark.default,
-    secondary: worktubeUIConfig.theme.dark.lighten1,
-    disabled: worktubeUIConfig.theme.dark.lighten3,
-    hint: worktubeUIConfig.theme.dark.lighten3
+    primary: colorDark.default,
+    secondary: colorDark.lighten1,
+    disabled: colorDark.lighten3,
+    hint: colorDark.lighten3
   },
-  divider: worktubeUIConfig.theme.dark.lighten3
+  divider: colorDark.lighten3
 }
 
 export default palette

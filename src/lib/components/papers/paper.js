@@ -1,10 +1,14 @@
-import worktubeUIConfig from 'app/styles/worktube-theme'
+import {
+  shadows,
+  colorWhite,
+  colorDark
+} from 'worktube-theme/core'
 
 const MuiPaper = {
   root: {
-    color: worktubeUIConfig.theme.dark.default,
+    color: colorDark.default,
     transition: 'box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
-    backgroundColor: worktubeUIConfig.theme.colors.white
+    backgroundColor: colorWhite.default
   },
   rounded: {
     borderRadius: '4px'
@@ -13,19 +17,19 @@ const MuiPaper = {
     boxShadow: 'none'
   },
   elevation1: {
-    boxShadow: worktubeUIConfig.theme.shadows.xs
+    boxShadow: shadows.xs
   },
   elevation2: {
-    boxShadow: worktubeUIConfig.theme.shadows.sm
+    boxShadow: shadows.sm
   },
   elevation3: {
-    boxShadow: worktubeUIConfig.theme.shadows.md
+    boxShadow: shadows.md
   },
   elevation4: {
-    boxShadow: worktubeUIConfig.theme.shadows.lg
+    boxShadow: shadows.lg
   },
   elevation5: {
-    boxShadow: worktubeUIConfig.theme.shadows.xl
+    boxShadow: shadows.xl
   }
   // elevation6: {
   //   boxShadow:

@@ -1,4 +1,11 @@
-import worktubeUIConfig from 'app/styles/worktube-theme'
+import {
+  colorDark,
+  colorSecondary,
+  fontSize,
+  lineHeight,
+  gradients,
+  offset
+} from 'worktube-theme/core'
 
 const MuiButton = {
   root: {
@@ -7,10 +14,10 @@ const MuiButton = {
     // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     '&:hover': {
       textDecoration: 'none',
-      backgroundColor: worktubeUIConfig.theme.dark.lighten5
+      backgroundColor: colorDark.lighten5
     },
     '&.Mui-disabled': {
-      color: worktubeUIConfig.theme.dark.lighten3
+      color: colorDark.lighten3
     }
   },
   text: {
@@ -18,23 +25,23 @@ const MuiButton = {
   },
   textSizeSmall: {
     padding: '4px 8px',
-    fontSize: worktubeUIConfig.typography.fontSize.caption1,
-    lineHeight: worktubeUIConfig.typography.lineHeight.caption1
+    fontSize: fontSize.caption1,
+    lineHeight: lineHeight.caption1
   },
   textSizeLarge: {
     padding: '16px 24px',
-    fontSize: worktubeUIConfig.typography.fontSize.body1,
-    lineHeight: worktubeUIConfig.typography.lineHeight.body1
+    fontSize: fontSize.body1,
+    lineHeight: lineHeight.body1
   },
   containedSizeSmall: {
     padding: '4px 8px',
-    fontSize: worktubeUIConfig.typography.fontSize.caption1,
-    lineHeight: worktubeUIConfig.typography.lineHeight.caption1
+    fontSize: fontSize.caption1,
+    lineHeight: lineHeight.caption1
   },
   containedSizeLarge: {
     padding: '16px 24px',
-    fontSize: worktubeUIConfig.typography.fontSize.body1,
-    lineHeight: worktubeUIConfig.typography.lineHeight.body1
+    fontSize: fontSize.body1,
+    lineHeight: lineHeight.body1
   },
   contained: {
     boxShadow: 'none',
@@ -49,10 +56,10 @@ const MuiButton = {
   },
   containedPrimary: {
     boxShadow: 'none',
-    background: worktubeUIConfig.theme.gradients.primary,
+    background: gradients.primary,
     '&:hover': {
       boxShadow: 'none',
-      background: worktubeUIConfig.theme.gradients.secondary
+      background: gradients.secondary
     }
     // @media (hover: none) {
     //   .MuiButton-containedPrimary:hover {
@@ -61,9 +68,9 @@ const MuiButton = {
     // }
   },
   containedSecondary: {
-    background: worktubeUIConfig.theme.secondary.default,
+    background: colorSecondary.default,
     '&:hover': {
-      background: worktubeUIConfig.theme.secondary.darken1
+      background: colorSecondary.darken1
     }
     // @media (hover: none) {
     //   '&:hover': {
@@ -81,13 +88,13 @@ const MuiButton = {
   },
   startIcon: {
     display: 'inherit',
-    marginLeft: worktubeUIConfig.offset('0'),
-    marginRight: worktubeUIConfig.offset('4')
+    marginLeft: offset('0'),
+    marginRight: offset('4')
   },
   endIcon: {
     display: 'inherit',
-    marginLeft: worktubeUIConfig.offset('4'),
-    marginRight: worktubeUIConfig.offset('0')
+    marginLeft: offset('4'),
+    marginRight: offset('0')
   }
   // @media (hover: none) {
   //   .MuiButton-root:hover {

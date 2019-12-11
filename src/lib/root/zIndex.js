@@ -1,13 +1,13 @@
-import worktubeUIConfig from 'app/styles/worktube-theme'
+import { zIndex } from 'worktube-theme/core'
 
 const zIndex = {
-  mobileStepper: worktubeUIConfig.zIndex.mobileStepper,
-  speedDial: worktubeUIConfig.zIndex.speedDial,
-  appBar: worktubeUIConfig.zIndex.appBar,
-  drawer: worktubeUIConfig.zIndex.drawer,
-  modal: worktubeUIConfig.zIndex.modal,
-  snackbar: worktubeUIConfig.zIndex.snackbar,
-  tooltip: worktubeUIConfig.zIndex.tooltip
+  mobileStepper: zIndex.mobileStepper,
+  speedDial: zIndex.speedDial,
+  appBar: zIndex.appBar,
+  drawer: zIndex.drawer,
+  modal: zIndex.modal,
+  snackbar: zIndex.snackbar,
+  tooltip: zIndex.tooltip
 }
 
 export default zIndex

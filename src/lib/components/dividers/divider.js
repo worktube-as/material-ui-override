@@ -1,4 +1,4 @@
-import worktubeUIConfig from 'app/styles/worktube-theme'
+import { colorWhite } from 'worktube-theme/core'
 
 const MuiDivider = {
   //   root: {
@@ -9,7 +9,7 @@ const MuiDivider = {
   //     backgroundColor: worktubeUIConfig.theme.dark.lighten3
   //   },
   light: {
-    backgroundColor: worktubeUIConfig.theme.white.lighten3
+    backgroundColor: colorWhite.lighten3
   }
   //   .MuiDivider-absolute {
   //     left: 0;
