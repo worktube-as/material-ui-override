@@ -5,15 +5,15 @@ import {
 
 const MuiFilledInput = {
   root: {
-    backgroundColor: colorDarkark.lighten3,
+    backgroundColor: colorDark.lighten3,
     '&:hover': {
-      backgroundColor: colorDarkark.lighten2,
+      backgroundColor: colorDark.lighten2,
       '@media (hover: none)': {
-        backgroundColor: colorDarkark.lighten2
+        backgroundColor: colorDark.lighten2
       }
     },
     '&$focused': {
-      backgroundColor: colorDarkark.lighten2
+      backgroundColor: colorDark.lighten2
     }
   },
   underline: {

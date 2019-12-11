@@ -1,9 +1,9 @@
 import { colorDark, colorWhite } from 'worktube-theme/core';
 const MuiFormHelperText = {
   root: {
-    color: colorDarkark.lighten1,
+    color: colorDark.lighten1,
     '&$error': {
-      color: colorWhitehite.lighten1
+      color: colorWhite.lighten1
     }
   },
   contained: {
