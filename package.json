@@ -1,6 +1,6 @@
 {
   "name": "material-ui-override",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -9,7 +9,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "worktube-theme": "^1.0.1"
+    "worktube-theme": "^1.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
