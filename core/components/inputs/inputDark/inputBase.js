@@ -1,7 +1,7 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorWhite } from 'worktube-theme/core';
 const MuiInputBase = {
   root: {
-    color: worktubeUIConfig.theme.white.default
+    color: colorWhite.default
   }
 };
 export default MuiInputBase;

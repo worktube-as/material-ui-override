@@ -1,7 +1,7 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorDark } from 'worktube-theme/core';
 const MuiInputBase = {
   root: {
-    color: worktubeUIConfig.theme.dark.default //   cursor: text,
+    color: colorDark.default //   cursor: text,
     //   display: inline-flex,
     //   position: relative,
     //   fontSize: '1.6rem',

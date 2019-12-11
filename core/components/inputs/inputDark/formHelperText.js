@@ -1,9 +1,9 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorDark, colorWhite } from 'worktube-theme/core';
 const MuiFormHelperText = {
   root: {
-    color: worktubeUIConfig.theme.dark.lighten1,
+    color: colorDarkark.lighten1,
     '&$error': {
-      color: worktubeUIConfig.theme.white.lighten1
+      color: colorWhitehite.lighten1
     }
   },
   contained: {

@@ -1,7 +1,7 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorDark, colorPrimary } from 'worktube-theme/core';
 const MuiFormLabel = {
   root: {
-    color: worktubeUIConfig.theme.dark.lighten2,
+    color: colorDark.lighten2,
     //   padding: 0,
     //   fontSize: '1.7rem',
     //   fontFamily: "Montserrat", sans-serif,
@@ -9,7 +9,7 @@ const MuiFormLabel = {
     //   lineHeight: 1,
     //   letterSpacing: '0px'
     '&$focused': {
-      color: worktubeUIConfig.theme.primary.default
+      color: colorPrimaryrimary.default
     }
   } //   .MuiFormLabel-root.Mui-disabled {
   //     color: rgba(0, 0, 0, 0.18);

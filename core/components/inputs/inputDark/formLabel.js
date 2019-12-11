@@ -1,9 +1,9 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorWhite, colorSecondary } from 'worktube-theme/core';
 const MuiFormLabel = {
   root: {
-    color: worktubeUIConfig.theme.white.lighten2,
+    color: colorWhitehite.lighten2,
     '&$focused': {
-      color: worktubeUIConfig.theme.secondary.default
+      color: colorSecondary.default
     }
   }
 };

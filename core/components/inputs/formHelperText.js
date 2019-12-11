@@ -1,7 +1,7 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorError } from 'worktube-theme/core';
 const MuiFormHelperText = {
   root: {
-    color: worktubeUIConfig.theme.error.lighten1,
+    color: colorError.lighten1,
     //   margin: 0,
     //   fontSize: '1.2rem',
     //   marginTop: '8px',
@@ -15,7 +15,7 @@ const MuiFormHelperText = {
     width: '100%',
     top: '64px',
     '&$error': {
-      color: worktubeUIConfig.theme.error.default
+      color: colorError.default
     }
   },
   //   .MuiFormHelperText-root.Mui-disabled {

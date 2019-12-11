@@ -1,6 +1,6 @@
 import { zIndex } from 'worktube-theme/core'
 
-const zIndex = {
+const zIndexes = {
   mobileStepper: zIndex.mobileStepper,
   speedDial: zIndex.speedDial,
   appBar: zIndex.appBar,
@@ -10,4 +10,4 @@ const zIndex = {
   tooltip: zIndex.tooltip
 }
 
-export default zIndex
+export default zIndexes

@@ -1,25 +1,25 @@
-import worktubeUIConfig from 'app/styles/worktube-theme';
+import { colorDark, colorError, colorPrimary, border } from 'worktube-theme/core';
 const MuiFilledInput = {
   root: {
     // position: 'relative',
     // transition: 'background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms',
-    backgroundColor: worktubeUIConfig.theme.dark.lighten6,
+    backgroundColor: colorDark.lighten6,
     // borderTopLeftRadius: '4px',
     // borderTopRightRadius: '4px',
     marginBottom: '36px',
     '&:hover': {
-      backgroundColor: worktubeUIConfig.theme.dark.lighten5,
+      backgroundColor: colorDark.lighten5,
       '@media (hover: none)': {
-        backgroundColor: worktubeUIConfig.theme.dark.lighten5
+        backgroundColor: colorDark.lighten5
       }
     },
     '&$error': {
-      backgroundColor: worktubeUIConfig.theme.error.lighten5
+      backgroundColor: colorError.lighten5
     },
     '&$focused': {
-      backgroundColor: worktubeUIConfig.theme.primary.lighten5,
+      backgroundColor: colorPrimary.lighten5,
       '&$error': {
-        backgroundColor: worktubeUIConfig.theme.error.lighten5
+        backgroundColor: colorError.lighten5
       }
     }
   },
@@ -42,7 +42,7 @@ const MuiFilledInput = {
       //   position: 'absolute',
       //   transform: 'scaleX(0)',
       //   transition: 'transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms',
-      borderBottom: worktubeUIConfig.border['2px'].solid.primary.default //   pointerEvents: 'none'
+      borderBottom: border['2px'].solid.primary.default //   pointerEvents: 'none'
 
     },
     '&:before': {
@@ -52,13 +52,13 @@ const MuiFilledInput = {
       //     content: '\00a0',
       //     position: 'absolute',
       //     transition: 'border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
-      borderBottom: worktubeUIConfig.border['1px'].solid.dark.lighten3 //     pointerEvents: 'none'
+      borderBottom: border['1px'].solid.dark.lighten3 //     pointerEvents: 'none'
       //   }
 
     },
     '&:hover': {
       '&:before': {
-        borderBottom: worktubeUIConfig.border['2px'].solid.dark.lighten1
+        borderBottom: border['2px'].solid.dark.lighten1
       }
     }
   } //   .MuiFilledInput-root.Mui-disabled {
