@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "rm -rf core && mkdir core && babel src/lib -d core --copy-files && babel src/index.js -d core --copy-files"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +31,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/preset-react": "^7.7.4"
   }
 }
