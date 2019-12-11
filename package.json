@@ -1,6 +1,6 @@
 {
   "name": "material-ui-override",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "rm -rf core && mkdir core && babel src/lib -d core --copy-files && babel src/index.js -d core --copy-files"
+    "publish:npm": "rm -rf core && mkdir core && babel src/lib -d core/lib --copy-files && babel src/index.js -d core --copy-files"
   },
   "eslintConfig": {
     "extends": "react-app"
