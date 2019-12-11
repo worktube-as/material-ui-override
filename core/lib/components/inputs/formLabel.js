@@ -9,7 +9,7 @@ const MuiFormLabel = {
     //   lineHeight: 1,
     //   letterSpacing: '0px'
     '&$focused': {
-      color: colorPrimaryrimary.default
+      color: colorPrimary.default
     }
   } //   .MuiFormLabel-root.Mui-disabled {
   //     color: rgba(0, 0, 0, 0.18);
