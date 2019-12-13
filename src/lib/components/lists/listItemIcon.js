@@ -2,8 +2,8 @@ import { offset, borderRadius, colorDark } from 'worktube-theme/core'
 
 const MuiListItemIcon = {
     root: {
-        marginRight: offset('8'),
         padding: offset('4'),
+        marginRight: offset('8'),
         backgroundColor: colorDark.lighten5,
         borderRadius: borderRadius['4'],
         // color: 'rgba(0, 0, 0, 0.53)',

@@ -17,6 +17,10 @@ import MuiLink from './links/link';
 import MuiPaper from './papers/paper';
 import MuiTypography from './typography/typography';
 import MuiMenuItem from './menu/menuItem';
+import MuiList from './lists/list';
+import MuiListItem from './lists/listItem';
+import MuiListItemIcon from './lists/listItemIcon';
+import MuiListItemText from './lists/listItemText';
 const components = {
   MuiButton: MuiButton,
   MuiButtonGroup: MuiButtonGroup,
@@ -36,6 +40,10 @@ const components = {
   MuiLink: MuiLink,
   MuiPaper: MuiPaper,
   MuiTypography: MuiTypography,
-  MuiMenuItem: MuiMenuItem
+  MuiMenuItem: MuiMenuItem,
+  MuiList: MuiList,
+  MuiListItem: MuiListItem,
+  MuiListItemIcon: MuiListItemIcon,
+  MuiListItemText: MuiListItemText
 };
 export default components;
