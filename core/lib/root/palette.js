@@ -6,10 +6,10 @@ const palette = {
     white: colorWhite.default
   },
   primary: {
-    main: colorPrimary.default,
+    main: colorSecondary.default,
     // light: '',
-    dark: colorPrimary.darken1,
-    contrastText: colorWhite.default
+    dark: colorSecondary.default,
+    contrastText: colorDark.default
   },
   secondary: {
     main: colorSecondary.default,

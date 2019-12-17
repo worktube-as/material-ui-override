@@ -9,7 +9,7 @@ const MuiIconButton = {
     //   font-size: 2.4rem;
     //   text-align: center;
     //   transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    //   border-radius: 50%;
+      borderRadius: offset('3'),
     '&:hover': {
       backgroundColor: 'rgba(0, 0, 0, 0.08)'
     }

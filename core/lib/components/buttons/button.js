@@ -1,10 +1,11 @@
-import { colorDark, colorSecondary, fontSize, lineHeight, gradients, offset } from 'worktube-theme/core';
+import { colorDark, colorSecondary, fontSize, lineHeight, offset, shadows } from 'worktube-theme/core';
+
 const MuiButton = {
   root: {
-    borderRadius: offset('12'),
-    paddingTop: offset('7'),
+    borderRadius: offset('3'),
+    paddingTop: offset('6'),
     paddingRight: offset('8'),
-    paddingBottom: offset('7'),
+    paddingBottom: offset('6'),
     paddingLeft: offset('8'),
     // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     '&:hover': {
@@ -16,9 +17,9 @@ const MuiButton = {
     }
   },
   text: {
-    paddingTop: offset('7'),
+    paddingTop: offset('6'),
     paddingRight: offset('8'),
-    paddingBottom: offset('7'),
+    paddingBottom: offset('6'),
     paddingLeft: offset('8')
   },
   textSizeSmall: {
@@ -70,10 +71,9 @@ const MuiButton = {
   },
   containedPrimary: {
     boxShadow: 'none',
-    background: gradients.primary,
     '&:hover': {
-      boxShadow: 'none',
-      background: gradients.secondary
+      boxShadow: shadows.button,
+      transition: 'box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)'
     } // @media (hover: none) {
     //   .MuiButton-containedPrimary:hover {
     //     background-color: #2DAFBC;

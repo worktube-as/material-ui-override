@@ -1,7 +1,6 @@
 import {
   colorBlack,
   colorWhite,
-  colorPrimary,
   colorSecondary,
   colorError,
   colorDark
@@ -14,22 +13,22 @@ const palette = {
     white: colorWhite.default
   },
   primary: {
-    main: colorPrimary.default,
+    main: colorSecondary.default,
     // light: '',
-    dark: colorPrimary.darken1,
-    contrastText: colorWhite.default
+    dark: colorSecondary.lighten2,
+    contrastText: colorDark.default
   },
   secondary: {
     main: colorSecondary.default,
     // light: '',
-    dark: colorSecondary.darken1,
-    contrastText: colorWhite.default
+    dark: colorSecondary.lighten2,
+    contrastText: colorDark.default
   },
   error: {
     main: colorError.default,
     // light: '',
     dark: colorError.darken1,
-    contrastText: colorWhite
+    contrastText: colorWhite.default
   },
   // grey: {
   //   50: '#fafafa',
