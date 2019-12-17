@@ -1,8 +1,11 @@
 import { colorDark, colorSecondary, fontSize, lineHeight, gradients, offset } from 'worktube-theme/core';
 const MuiButton = {
   root: {
-    borderRadius: '100rem',
-    padding: '10px 16px',
+    borderRadius: offset('12'),
+    paddingTop: offset('7'),
+    paddingRight: offset('8'),
+    paddingBottom: offset('7'),
+    paddingLeft: offset('8'),
     // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     '&:hover': {
       textDecoration: 'none',
@@ -13,25 +16,44 @@ const MuiButton = {
     }
   },
   text: {
-    padding: '10px 16px'
+    paddingTop: offset('7'),
+    paddingRight: offset('8'),
+    paddingBottom: offset('7'),
+    paddingLeft: offset('8')
   },
   textSizeSmall: {
-    padding: '4px 8px',
+    paddingTop: offset('4'),
+    paddingRight: offset('6'),
+    paddingBottom: offset('4'),
+    paddingLeft: offset('6'),
+    borderRadius: offset('8'),
     fontSize: fontSize.caption1,
     lineHeight: lineHeight.caption1
   },
   textSizeLarge: {
-    padding: '16px 24px',
+    paddingTop: offset('8'),
+    paddingRight: offset('12'),
+    paddingBottom: offset('8'),
+    paddingLeft: offset('12'),
+    borderRadius: offset('14'),
     fontSize: fontSize.body1,
     lineHeight: lineHeight.body1
   },
   containedSizeSmall: {
-    padding: '4px 8px',
+    paddingTop: offset('4'),
+    paddingRight: offset('6'),
+    paddingBottom: offset('4'),
+    paddingLeft: offset('6'),
+    borderRadius: offset('8'),
     fontSize: fontSize.caption1,
     lineHeight: lineHeight.caption1
   },
   containedSizeLarge: {
-    padding: '16px 24px',
+    paddingTop: offset('8'),
+    paddingRight: offset('12'),
+    paddingBottom: offset('8'),
+    paddingLeft: offset('12'),
+    borderRadius: offset('14'),
     fontSize: fontSize.body1,
     lineHeight: lineHeight.body1
   },

@@ -21,6 +21,8 @@ import MuiList from './lists/list';
 import MuiListItem from './lists/listItem';
 import MuiListItemIcon from './lists/listItemIcon';
 import MuiListItemText from './lists/listItemText';
+import MuiExpansionPanelSummary from './expansionPanel/expansionPanelSummary';
+
 const components = {
   MuiButton: MuiButton,
   MuiButtonGroup: MuiButtonGroup,
@@ -44,6 +46,7 @@ const components = {
   MuiList: MuiList,
   MuiListItem: MuiListItem,
   MuiListItemIcon: MuiListItemIcon,
-  MuiListItemText: MuiListItemText
+  MuiListItemText: MuiListItemText,
+  MuiExpansionPanelSummary: MuiExpansionPanelSummary
 };
 export default components;

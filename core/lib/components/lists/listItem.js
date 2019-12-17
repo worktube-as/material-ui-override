@@ -1,4 +1,4 @@
-import { borderRadius } from 'worktube-theme/core';
+import { borderRadius, colorDark } from 'worktube-theme/core';
 const MuiListItem = {
   // root: {
   //     width: '100%',
@@ -43,7 +43,7 @@ const MuiListItem = {
     transition: 'background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
     '&:hover': {
       textDecoration: 'none',
-      backgroundColor: 'rgba(0, 0, 0, 0.07)',
+      backgroundColor: colorDark.lighten5,
       borderRadius: borderRadius['4']
     }
   } //   @media (hover: none) {
