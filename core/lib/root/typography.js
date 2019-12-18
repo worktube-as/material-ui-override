@@ -95,9 +95,9 @@ const typography = {
     fontFamily: fontFamily.primary,
     fontSize: fontSize.body2,
     lineHeight: lineHeight.body2,
-    fontWeight: fontWeight.medium,
+    fontWeight: fontWeight.semibold,
     letterSpacing: letterSpacing['0'],
-    textTransform: 'none'
+    textTransform: 'uppercase'
   },
   caption: {
     color: colorDark.default,

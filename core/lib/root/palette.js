@@ -6,20 +6,20 @@ const palette = {
     white: colorWhite.default
   },
   primary: {
-    main: colorSecondary.default,
-    // light: '',
-    dark: colorSecondary.default,
-    contrastText: colorDark.default
+    main: colorPrimary.default,
+    light: colorPrimary.lighten1,
+    dark: colorPrimary.darken1,
+    contrastText: colorWhite.default
   },
   secondary: {
     main: colorSecondary.default,
-    // light: '',
+    light: colorSecondary.lighten1,
     dark: colorSecondary.darken1,
-    contrastText: colorWhite.default
+    contrastText: colorDark.default
   },
   error: {
     main: colorError.default,
-    // light: '',
+    light: colorError.lighten1,
     dark: colorError.darken1,
     contrastText: colorWhite
   },
