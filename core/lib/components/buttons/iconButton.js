@@ -11,7 +11,10 @@ const MuiIconButton = {
     //   transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
       borderRadius: offset('3'),
     '&:hover': {
-      backgroundColor: 'rgba(0, 0, 0, 0.08)'
+      backgroundColor: 'rgba(0, 0, 0, 0.08)',
+      '& path': {
+        fill: colorDark.default
+      }
     }
   },
   sizeSmall: {
