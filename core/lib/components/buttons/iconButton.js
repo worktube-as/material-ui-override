@@ -1,4 +1,4 @@
-import { offset, colorDark } from 'worktube-theme/core';
+import { offset } from 'worktube-theme/core';
 
 const MuiIconButton = {
   root: {
@@ -11,10 +11,10 @@ const MuiIconButton = {
     //   transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
       borderRadius: offset('3'),
     '&:hover': {
-      backgroundColor: 'rgba(0, 0, 0, 0.08)',
-      '& path': {
-        fill: colorDark.default
-      }
+      backgroundColor: 'rgba(0, 0, 0, 0.08)'
+      // '& path': {
+      //   fill: colorDark.default
+      // }
     }
   },
   sizeSmall: {

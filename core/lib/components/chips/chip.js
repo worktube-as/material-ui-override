@@ -64,9 +64,11 @@ const MuiChip = {
 //   .MuiChip-clickableColorSecondary:active {
 //     background-color: rgb(0, 204, 208);
 //   }
-//   .MuiChip-deletable:focus {
-//     background-color: rgb(206, 206, 206);
-//   }
+deletable: {
+  '&:focus': {
+    backgroundColor: colorPrimary.lighten3
+  }
+},
 //   .MuiChip-deletableColorPrimary:focus {
 //     background-color: rgb(87, 191, 201);
 //   }
