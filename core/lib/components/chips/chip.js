@@ -42,11 +42,10 @@ const MuiChip = {
         userSelect: 'none',
         // -webkit-tap-highlight-color: transparent
         '&:hover': {
-            '&$clickable': {
-                '&:focus': {
-                    backgroundColor: colorDark.lighten4
-                }
-            }
+            backgroundColor: colorDark.lighten4
+        },
+        '&:focus': {
+            backgroundColor: colorDark.lighten4
         },
         '&:active': {
             boxShadow: 'none',
