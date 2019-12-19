@@ -166,7 +166,7 @@ const MuiChip = {
 //     padding-right: 8px;
 //   }
   deleteIcon: {
-    color: colorDark.lighten1,
+    color: colorDark.default,
     width: 'auto',
     cursor: 'pointer',
     height: 'auto',
