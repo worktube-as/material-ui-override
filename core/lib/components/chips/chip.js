@@ -169,7 +169,7 @@ const MuiChip = {
   deleteIcon: {
     color: colorDark.lighten1,
     width: 'auto',
-    cursor: pointer,
+    cursor: 'pointer',
     height: 'auto',
     margin: 0,
     marginLeft: 'auto',
