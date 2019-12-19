@@ -1,4 +1,4 @@
-import { offset, ColorDark } from 'worktube-theme/core';
+import { offset, colorDark } from 'worktube-theme/core';
 const MuiChip = {
     root: {
         // color: 'rgba(0, 0, 0, 0.7)',
