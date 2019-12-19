@@ -1,4 +1,4 @@
-import { offset, colorDark } from 'worktube-theme/core';
+import { offset, colorDark, colorWhite } from 'worktube-theme/core';
 const MuiChip = {
     root: {
         // color: 'rgba(0, 0, 0, 0.7)',
@@ -166,7 +166,7 @@ const MuiChip = {
 //     padding-right: 8px;
 //   }
   deleteIcon: {
-    color: colorDark.default,
+    color: colorWhite.default,
     width: 'auto',
     cursor: 'pointer',
     height: 'auto',
@@ -174,7 +174,7 @@ const MuiChip = {
     marginLeft: 'auto',
     // -webkit-tap-highlight-color: transparent,
     '&:hover': {
-        color: colorDark.default
+        color: colorWhite.default
     }
   }
 //   .MuiChip-deleteIconSmall {
