@@ -1,4 +1,4 @@
-import { offset, colorDark, colorWhite } from 'worktube-theme/core';
+import { offset, colorDark, colorWhite, colorPrimary } from 'worktube-theme/core';
 const MuiChip = {
     root: {
         // color: 'rgba(0, 0, 0, 0.7)',
@@ -42,14 +42,14 @@ const MuiChip = {
         userSelect: 'none',
         // -webkit-tap-highlight-color: transparent
         '&:hover': {
-            backgroundColor: colorDark.lighten4
+            backgroundColor: colorPrimary.lighten4
         },
         '&:focus': {
-            backgroundColor: colorDark.lighten4
+            backgroundColor: colorPrimary.lighten4
         },
         '&:active': {
             boxShadow: 'none',
-            backgroundColor: colorDark.lighten3
+            backgroundColor: colorPrimary.lighten4
         }
     },
 //   .MuiChip-clickableColorPrimary:hover, .MuiChip-clickableColorPrimary:focus {
