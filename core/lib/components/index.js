@@ -23,6 +23,7 @@ import MuiListItemIcon from './lists/listItemIcon';
 import MuiListItemText from './lists/listItemText';
 import MuiExpansionPanelSummary from './expansionPanel/expansionPanelSummary';
 import MuiChip from './chips/chip';
+import MuiMobileStepper from './steppers/mobileStepper';
 
 const components = {
   MuiButton: MuiButton,
@@ -49,6 +50,7 @@ const components = {
   MuiListItemIcon: MuiListItemIcon,
   MuiListItemText: MuiListItemText,
   MuiExpansionPanelSummary: MuiExpansionPanelSummary,
-  MuiChip: MuiChip
+  MuiChip: MuiChip,
+  MuiMobileStepper: MuiMobileStepper
 };
 export default components;
