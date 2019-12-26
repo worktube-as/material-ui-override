@@ -4,7 +4,7 @@ const MuiInput = {// .MuiInput-root {
   //     position: relative;
   //   }
   label: {
-    '&$formControl': {
+    '& .Mui-formControl': {
       marginTop: offset('12'),
       marginBottom: offset('12')
     }
@@ -40,7 +40,7 @@ const MuiInput = {// .MuiInput-root {
       // pointer-events: none;
     },
     '&:hover': {
-      '&:not(.Mui-disabled)': {
+      '&:not($disabled)': {
         '&:before:': {
           borderBottom: border['1px'].solid.dark.default
         }
