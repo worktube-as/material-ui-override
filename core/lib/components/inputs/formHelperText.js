@@ -13,7 +13,7 @@ const MuiFormHelperText = {
     //   letterSpacing: '0px'
     position: 'absolute',
     width: '100%',
-    top: offset('32'),
+    top: offset('36'),
     '&$error': {
       color: colorError.default
     }

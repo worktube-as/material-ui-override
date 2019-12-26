@@ -5,12 +5,14 @@ const MuiInputLabel = {
   //     display: block;
   //     transform-origin: top left;
   //   }
-  //   .MuiInputLabel-formControl {
-  //     top: 0;
-  //     left: 0;
-  //     position: absolute;
-  //     transform: translate(0, 24px) scale(1);
-  //   }
+  formControl: {
+    // top: 0;
+    // left: 0;
+    // position: absolute;
+    transform: 'translate(12px, 36px)',
+    fontSize: fontSize.body1,
+    lineHeight: lineHeight.body1
+  },
   //   .MuiInputLabel-marginDense {
   //     transform: translate(0, 21px) scale(1);
   //   }
