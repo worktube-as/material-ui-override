@@ -8,14 +8,10 @@ const MuiInput = {
     'label + &': {
       marginTop: offset('12'),
       marginBottom: offset('12')
-    }
-  },
-  '&$error': {
-    'label + &': {
-      '& path': {
-        fill: colorError.default
-      }
-    }
+    },
+    '&$error path': {
+      fill: colorError.default
+    },
   },
   //   .MuiInput-underline.Mui-focused:after {
   //     transform: scaleX(1);
