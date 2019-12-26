@@ -12,7 +12,7 @@ const MuiInput = {
     '&$focused path': {
       fill: colorPrimary.default
     },
-    '&$error': {
+    '&$error path': {
       fill: colorError.default,
       '&$focused path': {
         fill: colorError.default
