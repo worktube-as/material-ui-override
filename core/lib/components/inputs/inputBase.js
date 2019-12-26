@@ -1,7 +1,8 @@
 import { colorDark } from 'worktube-theme/core';
 const MuiInputBase = {
   root: {
-    color: colorDark.default //   cursor: text,
+    color: colorDark.default
+    //   cursor: text,
     //   display: inline-flex,
     //   position: relative,
     //   fontSize: '1.6rem',
@@ -9,8 +10,8 @@ const MuiInputBase = {
     //   alignItems: center,
     //   fontFamily: "Montserrat", sans-serif,
     //   lineHeight: '1.1875em'
-
-  } //   .MuiInputBase-root.Mui-disabled {
+  },
+  //   .MuiInputBase-root.Mui-disabled {
   //     color: rgba(0, 0, 0, 0.18);
   //     cursor: default;
   //   }
@@ -23,21 +24,26 @@ const MuiInputBase = {
   //   .MuiInputBase-fullWidth {
   //     width: 100%;
   //   }
-  //   .MuiInputBase-input {
-  //     font: inherit;
-  //     color: currentColor;
-  //     width: 100%;
-  //     border: 0;
-  //     height: 1.1875em;
-  //     margin: 0;
-  //     display: block;
-  //     padding: 6px 0 7px;
-  //     min-width: 0;
-  //     background: none;
-  //     box-sizing: content-box;
-  //     animation-name: MuiInputBase-keyframes-auto-fill-cancel;
-  //     -webkit-tap-highlight-color: transparent;
-  //   }
+  input: {
+    // font: 'inherit',
+    fontSize: fontSize.body1,
+    lineHeight: lineHeight.body1,
+    // color: currentColor;
+    // width: 100%;
+    // border: 0;
+    height: '2.4rem',
+    // margin: 0;
+    // display: block;
+    paddingTop: offset('4'),
+    paddingBottom: offset('4'),
+    paddingLeft: 0,
+    paddingRight: 0
+    // min-width: 0;
+    // background: none;
+    // box-sizing: content-box;
+    // animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+    // -webkit-tap-highlight-color: transparent;
+  }
   //   .MuiInputBase-input::-webkit-input-placeholder {
   //     color: currentColor;
   //     opacity: 0.42;

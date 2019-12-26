@@ -1,19 +1,19 @@
-import { colorError } from 'worktube-theme/core';
+import { offset, colorError, fontSize, lineHeight } from 'worktube-theme/core';
 const MuiFormHelperText = {
   root: {
     color: colorError.lighten1,
     //   margin: 0,
-    //   fontSize: '1.2rem',
+    fontSize: fontSize.caption1,
     //   marginTop: '8px',
-    //   minHeight: '1rem',
+    minHeight: 0,
     //   textAlign: left,
     //   fontFamily: '"Montserrat", sans-serif',
     //   fontWeight: 400,
-    lineHeight: '1.4rem',
+    lineHeight: lineHeight.caption1,
     //   letterSpacing: '0px'
     position: 'absolute',
     width: '100%',
-    top: '64px',
+    top: offset('24'),
     '&$error': {
       color: colorError.default
     }
