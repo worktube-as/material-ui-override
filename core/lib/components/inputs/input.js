@@ -4,11 +4,9 @@ const MuiInput = {
   // .MuiInput-root {
   //     position: relative;
   //   }
-  formControl: {
-    '+ label': {
+  '&label + Mui-formControl': {
       marginTop: offset('12'),
       marginBottom: offset('12')
-    }
   },
   //   .MuiInput-underline:after {
   //     left: 0;
