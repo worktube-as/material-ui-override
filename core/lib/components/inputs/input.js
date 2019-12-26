@@ -1,4 +1,4 @@
-import { offset, colorError, border } from 'worktube-theme/core';
+import { offset, colorError, colorPrimary, border } from 'worktube-theme/core';
 
 const MuiInput = {
   // .MuiInput-root {
@@ -13,7 +13,7 @@ const MuiInput = {
       fill: colorError.default
     },
     '&$focused path': {
-      fill: colorError.default
+      fill: colorPrimary.default
     }
   },
   //   .MuiInput-underline.Mui-focused:after {
