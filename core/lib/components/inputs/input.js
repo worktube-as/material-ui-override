@@ -1,10 +1,11 @@
 import { offset, border } from 'worktube-theme/core';
 
-const MuiInput = {// .MuiInput-root {
+const MuiInput = {
+  // .MuiInput-root {
   //     position: relative;
   //   }
   'label': {
-    '& .MuiInput-formControl': {
+    '&+ .MuiInput-formControl': {
       marginTop: offset('12'),
       marginBottom: offset('12')
     }
