@@ -4,11 +4,9 @@ const MuiInput = {
   // .MuiInput-root {
   //     position: relative;
   //   }
-  'label': {
-    '&+ .MuiInput-formControl': {
-      marginTop: offset('12'),
-      marginBottom: offset('12')
-    }
+  'label + .MuiInput-formControl': {
+    marginTop: offset('12'),
+    marginBottom: offset('12')
   },
   //   .MuiInput-underline:after {
   //     left: 0;
@@ -40,12 +38,8 @@ const MuiInput = {
       borderBottom: border['1px'].solid.dark.lighten3
       // pointer-events: none;
     },
-    '&:hover': {
-      '&:not($disabled)': {
-        '&:before:': {
-          borderBottom: border['1px'].solid.dark.default
-        }
-      }
+    '&:hover:not($disabled):before': {
+      borderBottom: border['1px'].solid.dark.default
     }
   },
   //   .MuiInput-underline.Mui-disabled:before {
