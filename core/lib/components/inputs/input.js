@@ -10,7 +10,7 @@ const MuiInput = {
       marginBottom: offset('12')
     }
   },
-  '$error': {
+  '&$error': {
     'label + &': {
       '& path': {
         fill: colorError.default
