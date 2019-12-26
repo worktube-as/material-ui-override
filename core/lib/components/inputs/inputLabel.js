@@ -15,7 +15,7 @@ const MuiInputLabel = {
   //     transform: translate(0, 21px) scale(1);
   //   }
   shrink: {
-    transform: 'translate(0, 0)',
+    transform: 'translate(0, 8px)',
     fontSize: fontSize.body2,
     lineHeight: lineHeight.caption1
     // transform-origin: top left;
