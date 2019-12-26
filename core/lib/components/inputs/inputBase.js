@@ -1,4 +1,4 @@
-import { colorDark } from 'worktube-theme/core';
+import { offset, colorDark, fontSize, lineHeight } from 'worktube-theme/core';
 const MuiInputBase = {
   root: {
     color: colorDark.default
