@@ -9,11 +9,14 @@ const MuiInput = {
       marginTop: offset('12'),
       marginBottom: offset('12')
     },
-    '&$error path': {
-      fill: colorError.default
-    },
     '&$focused path': {
       fill: colorPrimary.default
+    },
+    '&$error': {
+      fill: colorError.default,
+      '&$focused path': {
+        fill: colorError.default
+      },
     }
   },
   //   .MuiInput-underline.Mui-focused:after {
