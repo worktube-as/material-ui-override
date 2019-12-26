@@ -1,7 +1,7 @@
 import { colorDark, colorPrimary, lineHeight } from 'worktube-theme/core';
 const MuiFormLabel = {
   root: {
-    color: colorDark.lighten2,
+    color: colorDark.lighten1,
     //   padding: 0,
     //   fontSize: '1.7rem',
     //   fontFamily: "Montserrat", sans-serif,

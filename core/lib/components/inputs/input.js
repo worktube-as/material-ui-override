@@ -1,4 +1,4 @@
-import { offset, border } from 'worktube-theme/core';
+import { offset, colorError, border } from 'worktube-theme/core';
 
 const MuiInput = {
   // .MuiInput-root {
@@ -8,6 +8,13 @@ const MuiInput = {
     'label + &': {
       marginTop: offset('12'),
       marginBottom: offset('12')
+    }
+  },
+  '$error': {
+    'label + &': {
+      '& path': {
+        fill: colorError.default
+      }
     }
   },
   //   .MuiInput-underline.Mui-focused:after {
@@ -25,7 +32,7 @@ const MuiInput = {
       // content: "\00a0";
       // position: absolute;
       // transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-      borderBottom: border['1px'].solid.dark.lighten3
+      borderBottom: border['1px'].solid.dark.lighten2
       // pointer-events: none;
     },
     '&:hover:not($disabled):before': {
