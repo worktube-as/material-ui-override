@@ -5,7 +5,7 @@ const MuiInput = {
   //     position: relative;
   //   }
   formControl: {
-    '& label': {
+    '+ label': {
       marginTop: offset('12'),
       marginBottom: offset('12')
     }
