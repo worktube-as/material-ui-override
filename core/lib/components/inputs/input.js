@@ -12,6 +12,9 @@ const MuiInput = {
     '&$error path': {
       fill: colorError.default
     },
+    '&$focused path': {
+      fill: colorError.default
+    }
   },
   //   .MuiInput-underline.Mui-focused:after {
   //     transform: scaleX(1);
