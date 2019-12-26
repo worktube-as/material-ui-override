@@ -1,9 +1,14 @@
+import { offset } from 'worktube-theme/core';
+
 const MuiInput = {// .MuiInput-root {
   //     position: relative;
   //   }
-  //   label + .MuiInput-formControl {
-  //     margin-top: 16px;
-  //   }
+  label: {
+    '&$formControl': {
+      marginTop: offset('12'),
+      marginBottom: offset('12')
+    }
+  }
   //   .MuiInput-underline:after {
   //     left: 0;
   //     right: 0;

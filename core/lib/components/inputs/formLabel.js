@@ -1,4 +1,4 @@
-import { colorDark, colorPrimary } from 'worktube-theme/core';
+import { colorDark, colorPrimary, lineHeight } from 'worktube-theme/core';
 const MuiFormLabel = {
   root: {
     color: colorDark.lighten2,
@@ -6,7 +6,7 @@ const MuiFormLabel = {
     //   fontSize: '1.7rem',
     //   fontFamily: "Montserrat", sans-serif,
     //   fontWeight: 400,
-    //   lineHeight: 1,
+    lineHeight: lineHeight.body1,
     //   letterSpacing: '0px'
     '&$focused': {
       color: colorPrimary.default

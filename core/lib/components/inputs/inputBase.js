@@ -1,7 +1,7 @@
 import { offset, colorDark, fontSize, lineHeight } from 'worktube-theme/core';
 const MuiInputBase = {
   root: {
-    color: colorDark.default
+    color: colorDark.default,
     //   cursor: text,
     //   display: inline-flex,
     //   position: relative,
@@ -9,7 +9,7 @@ const MuiInputBase = {
     //   boxSizing: border-box,
     //   alignItems: center,
     //   fontFamily: "Montserrat", sans-serif,
-    //   lineHeight: '1.1875em'
+    lineHeight: lineHeight.body1
   },
   //   .MuiInputBase-root.Mui-disabled {
   //     color: rgba(0, 0, 0, 0.18);
@@ -34,9 +34,9 @@ const MuiInputBase = {
     height: '2.4rem',
     // margin: 0;
     // display: block;
-    paddingTop: offset('4'),
-    paddingBottom: offset('4'),
-    paddingLeft: 0,
+    paddingTop: offset('6'),
+    paddingBottom: offset('6'),
+    paddingLeft: offset('6'),
     paddingRight: 0
     // min-width: 0;
     // background: none;

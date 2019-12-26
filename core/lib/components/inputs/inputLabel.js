@@ -1,4 +1,7 @@
-const MuiInputLabel = {// .MuiInputLabel-root {
+import { fontSize, lineHeight } from 'worktube-theme/core';
+
+const MuiInputLabel = {
+  // .MuiInputLabel-root {
   //     display: block;
   //     transform-origin: top left;
   //   }
@@ -11,10 +14,12 @@ const MuiInputLabel = {// .MuiInputLabel-root {
   //   .MuiInputLabel-marginDense {
   //     transform: translate(0, 21px) scale(1);
   //   }
-  //   .MuiInputLabel-shrink {
-  //     transform: translate(0, 1.5px) scale(0.75);
-  //     transform-origin: top left;
-  //   }
+  shrink: {
+    transform: 'translate(0, 0)',
+    fontSize: fontSize.body2,
+    lineHeight: lineHeight.caption1
+    // transform-origin: top left;
+  }
   //   .MuiInputLabel-animated {
   //     transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
   //   }
