@@ -18,7 +18,7 @@ const MuiInput = {
   //     border-bottom-color: #E03C3B;
   //   }
   underline: {
-    '&:before:': {
+    '&:before': {
       // left: 0;
       // right: 0;
       // bottom: 0;

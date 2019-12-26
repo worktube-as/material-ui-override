@@ -31,7 +31,7 @@ const MuiInputBase = {
     // color: currentColor;
     // width: 100%;
     // border: 0;
-    height: '2.4rem',
+    height: offset('12'),
     // margin: 0;
     // display: block;
     paddingTop: offset('6'),
