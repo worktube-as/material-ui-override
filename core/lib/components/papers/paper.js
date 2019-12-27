@@ -12,23 +12,23 @@ const MuiPaper = {
     boxShadow: 'none'
   },
   elevation1: {
-    boxShadow: shadows.xs
+    boxShadow: shadows.xxs
   },
   elevation2: {
-    boxShadow: shadows.sm
+    boxShadow: shadows.xs
   },
   elevation3: {
-    boxShadow: shadows.md
+    boxShadow: shadows.sm
   },
   elevation4: {
-    boxShadow: shadows.lg
+    boxShadow: shadows.md
   },
   elevation5: {
+    boxShadow: shadows.lg
+  },
+  elevation6: {
     boxShadow: shadows.xl
-  } // elevation6: {
-  //   boxShadow:
-  //     '0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)'
-  // },
+  }
   // elevation7: {
   //   boxShadow:
   //     '0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)'
