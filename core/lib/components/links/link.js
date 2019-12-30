@@ -7,7 +7,7 @@ const MuiLink = {
     textDecoration: 'none',
     '&:hover': {
       textDecoration: 'underline',
-      color: 'inherit'
+      // color: 'inherit'
     }
   },
   underlineAlways: {
