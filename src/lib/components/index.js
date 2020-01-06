@@ -15,6 +15,8 @@ import MuiInputLabel from './inputs/inputLabel'
 import MuiTextField from './inputs/textField'
 import MuiLink from './links/link'
 import MuiPaper from './papers/paper'
+import PrivateSwitchBase from './switchers/privateSwitchBase'
+import MuiSwitch from './switchers/switch'
 import MuiTypography from './typography/typography'
 import MuiMenuItem from './menu/menuItem'
 import MuiList from './lists/list'
@@ -40,6 +42,8 @@ const components = {
   MuiTextField: MuiTextField,
   MuiLink: MuiLink,
   MuiPaper: MuiPaper,
+  PrivateSwitchBase: PrivateSwitchBase,
+  MuiSwitch: MuiSwitch,
   MuiTypography: MuiTypography,
   MuiMenuItem: MuiMenuItem,
   MuiList: MuiList,
