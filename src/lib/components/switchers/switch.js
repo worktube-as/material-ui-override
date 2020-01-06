@@ -1,11 +1,7 @@
-import {
-    offset
-  } from 'worktube-theme/core'
-  
 const MuiSwitch = {
     root: {
-        width: offset('27'),
-        height: offset('18')
+        width: '54px',
+        height: '36px'
         // display: inline-flex;
         // padding: 12px;
         // z-index: 0;
