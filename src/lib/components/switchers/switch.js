@@ -12,21 +12,22 @@ const MuiSwitch = {
         // box-sizing: border-box;
         // flex-shrink: 0;
         // vertical-align: middle;
-    }
+    },
 //   .MuiSwitch-edgeStart {
 //     margin-left: -8px;
 //   }
 //   .MuiSwitch-edgeEnd {
 //     margin-right: -8px;
 //   }
-//   .MuiSwitch-switchBase {
-//     top: 0;
-//     left: 0;
-//     color: #fafafa;
-//     z-index: 1;
-//     position: absolute;
-//     transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-//   }
+    switchBase: {
+        borderRadius: offset('9')
+        // top: 0;
+        // left: 0;
+        // color: #fafafa;
+        // z-index: 1;
+        // position: absolute;
+        // transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
 //   .MuiSwitch-switchBase.Mui-checked {
 //     transform: translateX(50%);
 //   }
