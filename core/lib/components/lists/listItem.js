@@ -43,8 +43,7 @@ const MuiListItem = {
     transition: 'background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
     '&:hover': {
       textDecoration: 'none',
-      backgroundColor: colorDark.lighten5,
-      borderRadius: borderRadius['4']
+      backgroundColor: colorDark.lighten5
     }
   } //   @media (hover: none) {
   //     .MuiListItem-button:hover {
