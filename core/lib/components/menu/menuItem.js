@@ -5,7 +5,7 @@ const MuiMenuItem = {
     // overflow: 'hidden',
     // fontSize: '1.7rem',
     // boxSizing: 'border-box',
-    // minHeight: '48px',
+    minHeight: 'auto',
     // fontFamily: "'Montserrat', sans-serif",
     // fontWeight: 400,
     // lineHeight: '2.4rem',
