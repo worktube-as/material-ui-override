@@ -8,6 +8,7 @@ const MuiButton = {
     paddingRight: offset('8'),
     paddingBottom: offset('6'),
     paddingLeft: offset('8'),
+    minWidth: 'auto',
     // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     '&:hover': {
       textDecoration: 'none',
