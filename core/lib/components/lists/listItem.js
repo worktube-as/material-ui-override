@@ -1,21 +1,32 @@
-import { borderRadius, colorDark } from 'worktube-theme/core';
+import { borderRadius, colorDark, colorPrimary } from 'worktube-theme/core';
 const MuiListItem = {
   // root: {
-  //     width: '100%',
-  //     display: 'flex',
-  //     position: 'relative',
-  //     boxSizing: 'border-box',
-  //     textAlign: 'left',
-  //     alignItems: 'center',
-  //     paddingTop: offset('4'),
-  //     paddingBottom: offset('4'),
-  //     justifyContent: 'flex-start',
-  //     textDecoration: 'none'
+  //   width: 100%;
+  //   display: flex;
+  //   position: relative;
+  //   box-sizing: border-box;
+  //   text-align: left;
+  //   align-items: center;
+  //   padding-top: 8px;
+  //   padding-bottom: 8px;
+  //   justify-content: flex-start;
+  //   text-decoration: none;
+  // }
+  '.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover': {
+    backgroundColor: colorPrimary.lighten3
+  },
+  button: {
+    '&:hover': {
+      textDecoration: 'none',
+      backgroundColor: colorPrimary.lighten5
+    }
+  },
+  // @media (hover: none) {
+  //   .MuiListItem-button:hover {
+  //     background-color: transparent;
+  //   }
   // }
   //   .MuiListItem-root.Mui-focusVisible {
-  //     background-color: rgba(0, 0, 0, 0.15);
-  //   }
-  //   .MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
   //     background-color: rgba(0, 0, 0, 0.15);
   //   }
   //   .MuiListItem-root.Mui-disabled {
