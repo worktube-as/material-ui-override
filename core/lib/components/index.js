@@ -25,7 +25,7 @@ import MuiExpansionPanelSummary from './expansionPanel/expansionPanelSummary';
 import MuiChip from './chips/chip';
 import MuiMobileStepper from './steppers/mobileStepper';
 import MuiLinearProgress from './steppers/linearProgress';
-import MuiTab from './tabs/tab'
+import MuiTab from './tabs/tab';
 
 const components = {
   MuiButton: MuiButton,
