@@ -7,7 +7,7 @@ const MuiTab = {
     // position: relative;
     // font-size: 1.4rem;
     // max-width: 264px;
-    minWidth: '72px'
+    minWidth: '80px'
     // box-sizing: border-box;
     // min-height: 48px;
     // text-align: center;
@@ -21,7 +21,6 @@ const MuiTab = {
   },
   '@media (min-width:600px)': {
     root: {
-    //   font-size: 1.3rem;
       minWidth: '72px'
     }
   }
