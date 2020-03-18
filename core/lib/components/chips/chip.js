@@ -42,14 +42,15 @@ const MuiChip = {
         userSelect: 'none',
         // -webkit-tap-highlight-color: transparent
         '&:hover': {
-            backgroundColor: colorPrimary.lighten4
+            backgroundColor: colorPrimary.lighten3
         },
         '&:focus': {
             backgroundColor: colorPrimary.lighten4
         },
         '&:active': {
             boxShadow: 'none',
-            backgroundColor: colorPrimary.lighten4
+            backgroundColor: colorPrimary.default,
+            color: colorWhite.default
         }
     },
 //   .MuiChip-clickableColorPrimary:hover, .MuiChip-clickableColorPrimary:focus {
@@ -154,15 +155,16 @@ deletable: {
 //   .MuiChip-iconColorSecondary {
 //     color: inherit;
 //   }
-  label: {
-    display: 'flex',
-    alignItems: 'center',
-    whiteSpace: 'nowrap',
-    paddingLeft: 0,
-    paddingRight: 0,
-    marginLeft: offset('4'),
-    marginRight: offset('8')
-  },
+label: {
+  // display: 'flex',
+  // alignItems: 'center',
+  // whiteSpace: 'nowrap',
+  // paddingLeft: 0,
+  // paddingRight: 0,
+  // marginLeft: offset('4'),
+  // marginRight: offset('8')
+  fontWeight: fontWeight.medium
+},
 //   .MuiChip-labelSmall {
 //     padding-left: 8px;
 //     padding-right: 8px;
