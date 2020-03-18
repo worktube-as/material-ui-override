@@ -7,7 +7,7 @@ const MuiTab = {
     // position: relative;
     // font-size: 1.4rem;
     // max-width: 264px;
-    minWidth: '80px'
+    minWidth: '80px',
     // box-sizing: border-box;
     // min-height: 48px;
     // text-align: center;
@@ -18,12 +18,10 @@ const MuiTab = {
     // white-space: normal;
     // letter-spacing: 0px;
     // text-transform: uppercase;
-  },
-  '@media (min-width:600px)': {
-    root: {
+    '@media (min-width:600px)': {
       minWidth: '72px'
     }
-  }
+  },
 //   .MuiTab-labelIcon {
 //     min-height: 72px;
 //     padding-top: 9px;
