@@ -1,28 +1,28 @@
 import { offset } from 'worktube-theme/core';
 const MuiTab = {
-// .MuiTab-root {
-//     color: rgba(0, 0, 0, 0.7);
-//     padding: 6px 12px;
-//     overflow: hidden;
-//     position: relative;
-//     font-size: 1.4rem;
-//     max-width: 264px;
-//     min-width: 72px;
-//     box-sizing: border-box;
-//     min-height: 48px;
-//     text-align: center;
-//     flex-shrink: 0;
-//     font-family: "Montserrat", sans-serif;
-//     font-weight: 600;
-//     line-height: 2rem;
-//     white-space: normal;
-//     letter-spacing: 0px;
-//     text-transform: uppercase;
-//   }
+  root: {
+    // color: rgba(0, 0, 0, 0.7);
+    // padding: 6px 12px;
+    // overflow: hidden;
+    // position: relative;
+    // font-size: 1.4rem;
+    // max-width: 264px;
+    minWidth: '72px'
+    // box-sizing: border-box;
+    // min-height: 48px;
+    // text-align: center;
+    // flex-shrink: 0;
+    // font-family: "Montserrat", sans-serif;
+    // font-weight: 600;
+    // line-height: 2rem;
+    // white-space: normal;
+    // letter-spacing: 0px;
+    // text-transform: uppercase;
+  },
   '@media (min-width:600px)': {
     root: {
     //   font-size: 1.3rem;
-      minWidth: 72
+      minWidth: '72px'
     }
   }
 //   .MuiTab-labelIcon {
