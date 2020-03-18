@@ -22,7 +22,7 @@ const MuiTab = {
   '@media (min-width:600px)': {
     root: {
     //   font-size: 1.3rem;
-      minWidth: offset('36')
+      minWidth: 72
     }
   }
 //   .MuiTab-labelIcon {
