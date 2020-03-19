@@ -163,7 +163,7 @@ label: {
   // paddingRight: 0,
   // marginLeft: offset('4'),
   // marginRight: offset('8')
-  fontWeight: fontWeight.medium
+  fontWeight: fontWeight.semibold
 },
 //   .MuiChip-labelSmall {
 //     padding-left: 8px;
