@@ -1,4 +1,4 @@
-// import { colorWhite } from 'worktube-theme/core';
+import { offset } from 'worktube-theme/core';
 const MuiDialog = {
 // @media print {
 //     .MuiDialog-root {
