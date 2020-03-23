@@ -15,9 +15,9 @@ const MuiInputBase = {
   //     color: rgba(0, 0, 0, 0.18);
   //     cursor: default;
   //   }
-  //   .MuiInputBase-multiline {
-  //     padding: 6px 0 7px;
-  //   }
+  multiline: {
+    padding: 0
+  },
   //   .MuiInputBase-multiline.MuiInputBase-marginDense {
   //     padding-top: 3px;
   //   }
@@ -43,7 +43,7 @@ const MuiInputBase = {
     // box-sizing: content-box;
     // animation-name: MuiInputBase-keyframes-auto-fill-cancel;
     // -webkit-tap-highlight-color: transparent;
-  }
+  },
   //   .MuiInputBase-input::-webkit-input-placeholder {
   //     color: currentColor;
   //     opacity: 0.42;
@@ -112,11 +112,14 @@ const MuiInputBase = {
   //   .MuiInputBase-inputSelect {
   //     padding-right: 24px;
   //   }
-  //   .MuiInputBase-inputMultiline {
-  //     height: auto;
-  //     resize: none;
-  //     padding: 0;
-  //   }
+  inputMultiline: {
+    // height: auto;
+    // resize: none;
+    // padding: 0;
+    paddingTop: offset('6'),
+    paddingBottom: offset('6'),
+    paddingLeft: offset('6'),
+  }
   //   .MuiInputBase-inputTypeSearch {
   //     -moz-appearance: textfield;
   //     -webkit-appearance: textfield;
