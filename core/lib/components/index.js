@@ -1,9 +1,11 @@
 import MuiButton from './buttons/button';
 import MuiButtonGroup from './buttons/buttonGroup';
 import MuiIconButton from './buttons/iconButton';
-import MuiCardHeader from './cards/cardHeader';
-import MuiCardContent from './cards/cardContent';
 import MuiCardActions from './cards/cardActions';
+import MuiCardContent from './cards/cardContent';
+import MuiCardHeader from './cards/cardHeader';
+import MuiChip from './chips/chip';
+import MuiDialog from './dialogs/dialog';
 import MuiDivider from './dividers/divider';
 import MuiFilledInput from './inputs/filledInput';
 import MuiFormControl from './inputs/formControl';
@@ -22,7 +24,6 @@ import MuiListItem from './lists/listItem';
 import MuiListItemIcon from './lists/listItemIcon';
 import MuiListItemText from './lists/listItemText';
 import MuiExpansionPanelSummary from './expansionPanel/expansionPanelSummary';
-import MuiChip from './chips/chip';
 import MuiMobileStepper from './steppers/mobileStepper';
 import MuiLinearProgress from './steppers/linearProgress';
 import MuiTab from './tabs/tab';
@@ -31,9 +32,11 @@ const components = {
   MuiButton: MuiButton,
   MuiButtonGroup: MuiButtonGroup,
   MuiIconButton: MuiIconButton,
-  MuiCardHeader: MuiCardHeader,
-  MuiCardContent: MuiCardContent,
   MuiCardActions: MuiCardActions,
+  MuiCardContent: MuiCardContent,
+  MuiCardHeader: MuiCardHeader,
+  MuiChip: MuiChip,
+  MuiDialog: MuiDialog,
   MuiDivider: MuiDivider,
   MuiFilledInput: MuiFilledInput,
   MuiFormControl: MuiFormControl,
@@ -52,7 +55,6 @@ const components = {
   MuiListItemIcon: MuiListItemIcon,
   MuiListItemText: MuiListItemText,
   MuiExpansionPanelSummary: MuiExpansionPanelSummary,
-  MuiChip: MuiChip,
   MuiMobileStepper: MuiMobileStepper,
   MuiLinearProgress: MuiLinearProgress,
   MuiTab: MuiTab
