@@ -42,15 +42,13 @@ const MuiChip = {
         userSelect: 'none',
         // -webkit-tap-highlight-color: transparent
         '&:hover': {
-            backgroundColor: colorPrimary.lighten3
+            backgroundColor: colorDark.lighten3
         },
         '&:focus': {
-            backgroundColor: colorPrimary.lighten4
+            backgroundColor: colorDark.lighten3
         },
         '&:active': {
-            boxShadow: 'none',
-            backgroundColor: colorPrimary.default,
-            color: colorWhite.default
+            boxShadow: 'none'
         }
     },
 //   .MuiChip-clickableColorPrimary:hover, .MuiChip-clickableColorPrimary:focus {
@@ -67,7 +65,7 @@ const MuiChip = {
 //   }
 deletable: {
   '&:focus': {
-    backgroundColor: colorPrimary.lighten3
+    backgroundColor: colorDark.lighten3
   }
 },
 //   .MuiChip-deletableColorPrimary:focus {
@@ -164,23 +162,22 @@ label: {
   // marginLeft: offset('4'),
   // marginRight: offset('8')
   fontWeight: fontWeight.semibold
-},
+}
 //   .MuiChip-labelSmall {
 //     padding-left: 8px;
 //     padding-right: 8px;
 //   }
-  deleteIcon: {
-    color: colorWhite.default,
-    width: 'auto',
-    cursor: 'pointer',
-    height: 'auto',
-    margin: 0,
-    marginLeft: 'auto',
-    // -webkit-tap-highlight-color: transparent,
-    '&:hover': {
-        color: colorWhite.default
-    }
-  }
+  // deleteIcon: {
+  //   width: 'auto',
+  //   height: 'auto',
+  //   cursor: 'pointer',
+  //   margin: 0,
+  //   marginLeft: 'auto',
+  //   -webkit-tap-highlight-color: transparent,
+  //   '&:hover': {
+  //       color: colorWhite.default
+  //   }
+  // }
 //   .MuiChip-deleteIconSmall {
 //     width: 16px;
 //     height: 16px;
