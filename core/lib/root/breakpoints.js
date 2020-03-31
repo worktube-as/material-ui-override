@@ -1,11 +1,11 @@
 const breakpoints = {
-    keys: {
-        0: 'xs',
-        1: 'sm',
-        2: 'md',
-        3: 'lg',
-        4: 'xl'
-    },
+    // keys: {
+    //     0: 'xs',
+    //     1: 'sm',
+    //     2: 'md',
+    //     3: 'lg',
+    //     4: 'xl'
+    // },
     values: {
         xs: 0,
         sm: 576,
