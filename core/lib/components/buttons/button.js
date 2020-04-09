@@ -64,7 +64,7 @@ const MuiButton = {
     boxShadow: 'none',
     backgroundColor: colorSecondary.default,
     '&:hover': {
-      boxShadow: shadows.button,
+      boxShadow: shadows.buttonPrimary,
       backgroundColor: colorSecondary.default,
       transition: 'box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)'
     }

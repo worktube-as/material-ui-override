@@ -18,10 +18,10 @@ const MuiTab = {
     // white-space: normal;
     // letter-spacing: 0px;
     // text-transform: uppercase;
-    '@media (min-width:600px)': {
+    '@media (min-width:576px)': {
       minWidth: '72px'
     },
-    '@media (min-width:1280px)': {
+    '@media (min-width:992px)': {
       minWidth: '128px'
     }
   },
