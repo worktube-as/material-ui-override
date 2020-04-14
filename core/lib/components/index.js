@@ -1,3 +1,4 @@
+import MuiAvatar from './avatars/avatar';
 import MuiButton from './buttons/button';
 import MuiButtonGroup from './buttons/buttonGroup';
 import MuiIconButton from './buttons/iconButton';
@@ -29,6 +30,7 @@ import MuiLinearProgress from './steppers/linearProgress';
 import MuiTab from './tabs/tab';
 
 const components = {
+  MuiAvatar: MuiAvatar,
   MuiButton: MuiButton,
   MuiButtonGroup: MuiButtonGroup,
   MuiIconButton: MuiIconButton,
