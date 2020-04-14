@@ -1,6 +1,6 @@
 {
   "name": "material-ui-override",
-  "version": "1.0.82",
+  "version": "1.0.83",
   "private": false,
   "dependencies": {
     "react": "^16.12.0",
