@@ -19,7 +19,7 @@ root: {
   },
   colorDefault: {
     color: colorDark.default,
-    backgroundColor: colorDark.lighten4
+    backgroundColor: '#e3e3e3'
   },
 //   rounded: {
 //     borderRadius: '4px'
