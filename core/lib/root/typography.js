@@ -6,56 +6,55 @@ const typography = {
   fontWeightLight: fontWeight.light,
   fontWeightRegular: fontWeight.regular,
   fontWeightMedium: fontWeight.medium,
-  fontWeightSemiBold: fontWeight.semibold,
   letterSpacing: letterSpacing['0'],
   fontStyle: 'normal',
   fontFamily: fontFamily.primary,
   h1: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.mega1,
-    lineHeight: lineHeight.mega1,
-    fontWeight: fontWeight.semibold,
+    fontSize: fontSize.mega2,
+    lineHeight: lineHeight.mega2,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   },
   h2: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.mega2,
-    lineHeight: lineHeight.mega2,
-    fontWeight: fontWeight.semibold,
+    fontSize: fontSize.maintitle,
+    lineHeight: lineHeight.maintitle,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   },
   h3: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.maintitle,
-    lineHeight: lineHeight.maintitle,
-    fontWeight: fontWeight.semibold,
+    fontSize: fontSize.title,
+    lineHeight: lineHeight.title,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   },
   h4: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.title,
-    lineHeight: lineHeight.title,
-    fontWeight: fontWeight.semibold,
+    fontSize: fontSize.subtitle,
+    lineHeight: lineHeight.subtitle,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   },
   h5: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.subtitle,
-    lineHeight: lineHeight.subtitle,
-    fontWeight: fontWeight.semibold,
+    fontSize: fontSize.body1,
+    lineHeight: lineHeight.body1,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   },
   h6: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.body1,
-    lineHeight: lineHeight.body1,
-    fontWeight: fontWeight.semibold,
+    fontSize: fontSize.body2,
+    lineHeight: lineHeight.body2,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   },
   subtitle1: {
@@ -77,8 +76,8 @@ const typography = {
   body1: {
     color: colorDark.default,
     fontFamily: fontFamily.primary,
-    fontSize: fontSize.body1,
-    lineHeight: lineHeight.body1,
+    fontSize: fontSize.body2,
+    lineHeight: lineHeight.body2,
     fontWeight: fontWeight.regular,
     letterSpacing: letterSpacing['0']
   },
@@ -112,7 +111,7 @@ const typography = {
     fontFamily: fontFamily.primary,
     fontSize: fontSize.caption2,
     lineHeight: lineHeight.caption2,
-    fontWeight: fontWeight.semibold,
+    fontWeight: fontWeight.bold,
     letterSpacing: letterSpacing['0']
   }
 };

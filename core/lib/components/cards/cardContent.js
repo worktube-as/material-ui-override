@@ -1,14 +1,14 @@
 const MuiCardContent = {
   root: {
-    paddingTop: '32px',
-    paddingRight: '16px',
+    paddingTop: '16px',
+    paddingRight: '0px',
     paddingBottom: '0px',
-    paddingLeft: '16px',
+    paddingLeft: '0px',
     // '&:first-child': {
     //   paddingTop: '32px'
     // },
     '&:last-child': {
-      paddingBottom: '32px'
+      paddingBottom: '16px'
     }
   }
 };
