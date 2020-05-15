@@ -2,6 +2,7 @@ import MuiAvatar from './avatars/avatar';
 import MuiButton from './buttons/button';
 import MuiButtonGroup from './buttons/buttonGroup';
 import MuiIconButton from './buttons/iconButton';
+import MuiCardActionArea from './cards/cardActionArea';
 import MuiCardActions from './cards/cardActions';
 import MuiCardContent from './cards/cardContent';
 import MuiCardHeader from './cards/cardHeader';
@@ -34,6 +35,7 @@ const components = {
   MuiButton: MuiButton,
   MuiButtonGroup: MuiButtonGroup,
   MuiIconButton: MuiIconButton,
+  MuiCardActionArea: MuiCardActionArea,
   MuiCardActions: MuiCardActions,
   MuiCardContent: MuiCardContent,
   MuiCardHeader: MuiCardHeader,
