@@ -20,6 +20,8 @@ const MuiChip = {
         // justifyContent: 'center',
         // textDecoration: 'none',
         backgroundColor: colorDark.lighten5,
+        paddingLeft: offset('4'),
+        paddingRight: offset('4'),
         padding: offset('2')
     },
 //   .MuiChip-root.Mui-disabled {
@@ -157,10 +159,10 @@ label: {
   // display: 'flex',
   // alignItems: 'center',
   // whiteSpace: 'nowrap',
-  // paddingLeft: 0,
-  // paddingRight: 0,
   // marginLeft: offset('4'),
   // marginRight: offset('8')
+  paddingLeft: offset('4'),
+  paddingRight: offset('4'),
   fontWeight: fontWeight.semibold
 }
 //   .MuiChip-labelSmall {
